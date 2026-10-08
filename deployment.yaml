@@ -17,7 +17,7 @@ spec:
       containers:
       - name: noticeboard-container
         # Replace 'your-dockerhub-username' with your actual Docker Hub account name
-        image: your-dockerhub-username/noticeboard:latest
+        image: harshid2007/noticeboard:latest
         ports:
         - containerPort: 80
 ---
